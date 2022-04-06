@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Food Genie",
+    "slug": "FoodGenie",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://i.ibb.co/5LTR4dP/Whats-App-Image-2022-03-23-at-7-12-43-PM.jpg",
+    "splash": {
+      "image": "https://i.ibb.co/5LTR4dP/Whats-App-Image-2022-03-23-at-7-12-43-PM.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "https://i.ibb.co/5LTR4dP/Whats-App-Image-2022-03-23-at-7-12-43-PM.jpg",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.rootrsk.foodgenie",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "App Wants Your Permission to Access Photos."
+        }
+      ]
+    ]
+  }
+}
